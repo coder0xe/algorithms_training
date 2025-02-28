@@ -12,6 +12,8 @@ void Init_10_NodesList(LinkList &L);
 void printList(const LinkList &L);
 void delete_x(LinkList &L, int x);
 void del_min(LinkList &L);
+void reverse(LinkList &L);
+void _reverse(LinkList &L);
 
 // 双链表
 typedef struct DNode {
